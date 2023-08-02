@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Android';
+    src: url(font/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+
+       
+}
+body {
+    margin: 0px;
+    text-align: justify;
+    background-color: #aed8bc;
+    }
+header {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(to top, #00531c, #00e24b); 
+}
+.texto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 30px;
+    font-size: 16px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    margin: auto;
+    padding: 20px;
+}
+.titulo {
+    color: white;
+    text-align: center;
+}
+.menu{
+    margin: auto;
+    padding: 5px;
+}
+nav > a {
+    color: white;
+    margin: auto;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+nav > a:hover {
+    text-decoration: none;
+    color: #2E9E53;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+ 
+}
+h2 {
+    font-family: Android;
+    color: #00531c;
+}
+h3 {
+    background-image: linear-gradient(to right, #50df806b, #ffff );
+    padding: 4px;
+    font-family: Android;
+    color: #00531c;
+}
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+.video {
+    background-color: #00531c;
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.479);
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+}
+footer > div {
+    background-color: #aed8bc;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lista {
+    display: flex;
+    margin: 16px;
+}
+h4 {
+    background-color: #0ac047;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+}
+.criado {
+    background-color: #00531c;
+    margin: 0px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
